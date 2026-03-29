@@ -28,9 +28,7 @@
     "local-release": "changeset version && changeset publish",
     "release": "changeset publish",
     "prepublishOnly": "pnpm run ci",
-    "ci": "pnpm run build && pnpm run format:check && pnpm run check-exports && pnpm run lint && pnpm run test",
-    "prepare": "husky",
-    "lint-staged": "lint-staged"
+    "ci": "pnpm run build && pnpm run format:check && pnpm run check-exports && pnpm run lint && pnpm run test"
   },
   "keywords": [
     "demo",
